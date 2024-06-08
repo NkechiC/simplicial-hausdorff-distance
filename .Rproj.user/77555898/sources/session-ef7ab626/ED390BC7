@@ -1,0 +1,24 @@
+{
+    "id": "ED390BC7",
+    "path": "/cloud/project/Test SCD on two complexes from same pt cloud.R",
+    "project_path": "Test SCD on two complexes from same pt cloud.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1717840236458.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1717840234,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1717840234,
+    "read_only": false,
+    "read_only_alternatives": []
+}

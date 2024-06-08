@@ -1,0 +1,43 @@
+#Script to compute SCD between two VR complexes on the same point cloud
+#at different radii
+#100 points sampled from [0,1]*[0,1]
+
+x<-runif(100)
+y<-runif(100)
+data<-cbind(x,y)
+plot(data, pch=19, col='red', asp=1, cex=3.0)
+
+par(pty="s") # force the plotting region to be square
+
+eucl.dist <- function(u,v){
+  sqrt(sum((u-v)^2))}
+
+#Plot Vietoris-Rips complexes:
+filt1<-0.2
+filt2<-0.5
+num.pts <- dim(data)[1]
+
+plot1<-plot(data, col = 2, main = "First complex at r=0.2")
+for(i in 1:num.pts){
+  #add vector c(i) to the array
+} 
+
+for(i in 1:num.pts){
+  for(j in i+1:num.pts){
+    if (eucl.dist(data[i,],data[j,]) <filt1)
+    { #add vector c(i,j) to the array
+      lines(rbind(data[i,],data[j,]))
+    }
+  }
+}
+
+plot2<-plot(data, col = 4, main = "Second complex at r=0.5")
+for(i in 1:num.pts){
+  for(j in 1:num.pts){
+    if (eucl.dist(data[i,],data[j,]) <filt2)
+    {
+      lines(rbind(data[i,],data[j,]))
+    }
+  }
+}
+

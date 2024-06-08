@@ -1,0 +1,24 @@
+{
+    "id": "F308253C",
+    "path": "/cloud/project/Test SCD #3.R",
+    "project_path": "Test SCD #3.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1717840316602.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1717840312,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1717840312,
+    "read_only": false,
+    "read_only_alternatives": []
+}
